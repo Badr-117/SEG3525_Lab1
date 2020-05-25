@@ -1,0 +1,85 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Questionaire</title>
+</head>
+
+<body>
+
+  <p id="titre">Sondage</p>
+  <p id="description">Nous vous remercions de votre temps afin de nous aider a ameliorer la platfrome</p>
+
+<form id="survey-form">
+    
+<a href="https://www.udacity.com/?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=8826748790_c&utm_term=87778505894&utm_keyword=udacity_e&gclid=CjwKCAjw2a32BRBXEiwAUcugiP5OG95ZDqhd_2yTokSFpyny19KmAGyuL9Z-H7oXsVD1hMK4OqwMBRoCe54QAvD_BwE" >
+  <img id= "image" src="img/udacity_img.PNG" ><br><br>
+</a>
+    
+
+    First name:<br><input id="firstname"  type= "text" name="firstname"><br><br>
+    Last name:<br><input id="lastname" type= "text" name="lastname"><br><br>
+    Age:<br><input id="age" type="number" placeholder="Entrez votre age" min="12" max="110" required><br><br>
+
+    
+    <label class="statement">Comment a été votre expérience avec notre site?</label>
+    <ul class='likert'>
+      <li>
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Affreuse</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Pas bien</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Moyenne</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="disagree">
+        <label>Bien</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Excellente</label>
+      </li>
+    </ul>
+
+
+    Quels sont les appareils que avez utilisé pour accéder au site Web <br />
+      <input type="checkbox" id="Ordinateur" value="Ordinateur portable/fix" />Ordinateur portable/fix<br />
+      <input type="checkbox" id="Ordinateur" value="Smartphone" />Smartphone<br />
+      <input type="checkbox" id="Ordinateur" value="Table" />Table<br />
+      <input type="checkbox" id="Ordinateur" value="Smart TV" />Smart TV<br /><br />
+
+      Qu'est-ce qui vous a le plus déplu dans le site: <br />
+      <input type="radio" id="perspective" value="friends" checked />le design 
+      <br />
+      <input
+        type="radio"
+        id="perspective"
+        value="television"
+      />les couleurs<br />
+      <input type="radio" id="perspective" value="In-ternet" />les images<br />
+      <input type="radio" id="perspective" value="Other" />autres<br /><br />
+
+      Pensez-vous que vous deviez cliquer trop pour obtenir ce que vous cherchiez? <br />
+      <input type="radio" id="perspective" value="In-ternet" />Oui<br />
+      <input type="radio" id="perspective" value="Other" />Non<br /><br />
+
+      Comments: <br />
+      <textarea id="comments" placeholder="Commentaires..." rows="4" maxlength="200" cols="60"></textarea
+      ><br /><br />
+      <input id="submit" type="submit" value="Submit" /> 
+
+</form>
+
+<p>Site créer par Badr Ibrahimi</p>
+
+</body>
+
+</html>

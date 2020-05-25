@@ -1,0 +1,134 @@
+body{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(to bottom right, aqua, blue);
+}
+
+#titre{
+    font-size: 45px;
+}
+
+#description{
+    font-size: 20px;
+}
+
+#survey-form{
+    width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+#image{
+    width:500px;
+    height:300px;
+    border-radius:10px;
+    display:block;
+    margin:auto;
+}
+
+#firstname{
+    width: 560px;
+    padding: 15px;
+    border-radius:10px;
+    margin-top:1%;
+}
+
+#lastname{
+    width: 560px;
+    padding: 15px;
+    border-radius:10px;
+    margin-top:1%;
+}
+
+#age{
+    width: 560px;
+    padding: 15px;
+    border-radius:10px;
+    margin-top:1%;
+}
+
+#dropdown{
+    width: 300px;
+}
+
+#comments{
+    width: 590px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top:1%;
+}
+
+#perspective{
+    margin: 1.5%;
+}
+
+#Ordinateur{
+    margin: 1.5%
+}
+
+#submit{
+    width: 590px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 3%;
+    color: white;
+    background-color: green;
+}
+
+
+form .likert {
+    list-style:none;
+    width:100%;
+    margin:0;
+    padding:0 0 35px;
+    display:block;
+    border-bottom:2px solid #efefef;
+  }
+  form .likert:last-of-type {border-bottom:0;}
+  form .likert:before {
+    content: '';
+    position:relative;
+    top:11px;
+    left:9.5%;
+    display:block;
+    background-color:#efefef;
+    height:4px;
+    width:78%;
+  }
+  form .likert li {
+    display:inline-block;
+    width:19%;
+    text-align:center;
+    vertical-align: top;
+  }
+  form .likert li input[type=radio] {
+    display:block;
+    position:relative;
+    top:0;
+    left:50%;
+    margin-left:-6px;
+    
+  }
+  form .likert li label {width:100%;}
+  form .buttons {
+    margin:30px 0;
+    padding:0 4.25%;
+    text-align:right
+  } 
+
+  /* #footer{
+      background-color: gray;
+      position: relative;
+      height: 100px;
+      margin-top: -100px;
+      clear: both;
+  } */
